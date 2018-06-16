@@ -9,7 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+  let interactor = Interactor()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
@@ -48,15 +49,23 @@ class ViewController: UIViewController {
     //gesture 상태에 따른 동작
     switch gesture.state {
     case .began:
+      self.interactor.hasStarted = true
       break
       
     case .changed:
+      self.interactor.shouldFinish = progress > 0.5
+      self.interactor.update(progress)
       break
       
     case .cancelled:
+      self.interactor.hasStarted = false
+      self.interactor.cancel()
       break
       
+    //EdgePanGesture 종료 시점에 gesture가 적용된 view가 50%를 넘어가면 finish, 아니면 cancel
     case .ended:
+      self.interactor.hasStarted = false
+      self.interactor.shouldFinish ? self.interactor.finish() : self.interactor.cancel()
       break
       
     default:
