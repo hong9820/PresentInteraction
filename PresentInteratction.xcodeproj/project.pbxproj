@@ -12,6 +12,7 @@
 		7DF8097C20D4D021009CD257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8097A20D4D021009CD257 /* Main.storyboard */; };
 		7DF8097E20D4D023009CD257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8097D20D4D023009CD257 /* Assets.xcassets */; };
 		7DF8098120D4D023009CD257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8097F20D4D023009CD257 /* LaunchScreen.storyboard */; };
+		7DF8098920D4D7DE009CD257 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8098820D4D7DE009CD257 /* PresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7DF8097D20D4D023009CD257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF8098020D4D023009CD257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF8098220D4D023009CD257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF8098820D4D7DE009CD257 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7DF8097620D4D021009CD257 /* AppDelegate.swift */,
 				7DF8097820D4D021009CD257 /* ViewController.swift */,
+				7DF8098820D4D7DE009CD257 /* PresentViewController.swift */,
 				7DF8097A20D4D021009CD257 /* Main.storyboard */,
 				7DF8097D20D4D023009CD257 /* Assets.xcassets */,
 				7DF8097F20D4D023009CD257 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				7DF8097920D4D021009CD257 /* ViewController.swift in Sources */,
 				7DF8097720D4D021009CD257 /* AppDelegate.swift in Sources */,
+				7DF8098920D4D7DE009CD257 /* PresentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
