@@ -33,6 +33,13 @@ class ViewController: UIViewController {
     view.addGestureRecognizer(swipeGesture)
   }
   
+  @IBAction func presentButtonTouched(_ sender: Any) {
+    let destination = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "presentVC") as! PresentViewController
+    destination.interactor = self.interactor
+    destination.transitioningDelegate = destination
+    self.present(destination, animated: true, completion: nil)
+  }
+  
   /**
    Gesture에 대한 동작을 설정한다.
    
