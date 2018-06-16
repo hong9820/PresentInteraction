@@ -40,4 +40,9 @@ extension PresentViewController: UIViewControllerTransitioningDelegate {
   func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
     return PresentMenuAnimator()
   }
+  
+  func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
+    //넘겨받은 interactor의 hasStarted값을 확인하여 리턴함
+    return interactor.hasStarted ? interactor : nil
+  }
 }

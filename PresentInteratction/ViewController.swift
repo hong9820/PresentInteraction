@@ -58,6 +58,7 @@ class ViewController: UIViewController {
     switch gesture.state {
     case .began:
       self.interactor.hasStarted = true
+      self.presentButtonTouched(UIButton())
       break
       
     case .changed:
