@@ -14,6 +14,7 @@
 		7DF8098120D4D023009CD257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF8097F20D4D023009CD257 /* LaunchScreen.storyboard */; };
 		7DF8098920D4D7DE009CD257 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8098820D4D7DE009CD257 /* PresentViewController.swift */; };
 		7DF8098B20D4EA0D009CD257 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8098A20D4EA0D009CD257 /* Interactor.swift */; };
+		7DF8098D20D5419B009CD257 /* PresentMenuAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF8098C20D5419B009CD257 /* PresentMenuAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7DF8098220D4D023009CD257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF8098820D4D7DE009CD257 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
 		7DF8098A20D4EA0D009CD257 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		7DF8098C20D5419B009CD257 /* PresentMenuAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentMenuAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 				7DF8097620D4D021009CD257 /* AppDelegate.swift */,
 				7DF8097820D4D021009CD257 /* ViewController.swift */,
 				7DF8098820D4D7DE009CD257 /* PresentViewController.swift */,
+				7DF8098A20D4EA0D009CD257 /* Interactor.swift */,
+				7DF8098C20D5419B009CD257 /* PresentMenuAnimator.swift */,
 				7DF8097A20D4D021009CD257 /* Main.storyboard */,
 				7DF8097D20D4D023009CD257 /* Assets.xcassets */,
 				7DF8097F20D4D023009CD257 /* LaunchScreen.storyboard */,
 				7DF8098220D4D023009CD257 /* Info.plist */,
-				7DF8098A20D4EA0D009CD257 /* Interactor.swift */,
 			);
 			path = PresentInteratction;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				7DF8097920D4D021009CD257 /* ViewController.swift in Sources */,
 				7DF8097720D4D021009CD257 /* AppDelegate.swift in Sources */,
 				7DF8098B20D4EA0D009CD257 /* Interactor.swift in Sources */,
+				7DF8098D20D5419B009CD257 /* PresentMenuAnimator.swift in Sources */,
 				7DF8098920D4D7DE009CD257 /* PresentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -37,5 +37,7 @@ class PresentViewController: UIViewController {
 }
 
 extension PresentViewController: UIViewControllerTransitioningDelegate {
-  
+  func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+    return PresentMenuAnimator()
+  }
 }
